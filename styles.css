@@ -1,0 +1,190 @@
+body {
+    font-family: "Hind";
+    color: #3F3F3F;
+    overflow: hidden;
+}
+
+.scrollable-container {
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+}
+
+.child {
+    scroll-snap-align: start;
+    height: 100vh;
+    scroll-snap-stop: always;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
+.link {
+    font-family: inherit;
+    font-weight: 300;
+    color: #00A3FF;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-decoration-color: #00A3FF;
+    color: #00A3FF;
+}
+
+.social-icon {
+    transition: filter 0.5s ease;
+}
+
+.social-icon:hover {
+    filter: invert(0.5);
+}
+
+.social-a:hover {
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Needs to scale */
+
+p {
+    font-family: inherit;
+    font-size: 4vw;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: inherit;
+    font-size: 10vw;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: inherit;
+    font-size: 10vw;
+    font-weight: 300;
+}
+
+.spotify-iframe-container {
+    background: #000;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 90%;
+    height: 60vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.profile-photo {
+    width: 50%;
+}
+
+@media (min-width: 576px) {
+    p {
+        font-size: 3vw;
+    }
+    h1 {
+        font-size: 8vw;
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    .spotify-iframe-container {
+        width: 50vw;
+    }
+    .profile-photo {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 2.5vw;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    .spotify-iframe-container {
+        width: 50vw;
+    }
+    .profile-photo {
+        width: 40%;
+    }
+}
+
+@media (min-width: 992px) {
+    p {
+        font-size: 2vw;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    .spotify-iframe-container {
+        width: 30vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* eh, whatever */
+}
+
+
+/* Fonts */
+
+@font-face {
+    font-family: "Hind";
+    src: url("assets/fonts/Hind-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hind";
+    src: url("assets/fonts/Hind-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hind";
+    src: url("assets/fonts/Hind-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hind";
+    src: url("assets/fonts/Hind-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hind";
+    src: url("assets/fonts/Hind-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
