@@ -96,6 +96,10 @@ h2 {
     width: 50%;
 }
 
+.world-map {
+    width: 100%;
+}
+
 @media (min-width: 576px) {
     p {
         font-size: 3vw;
@@ -111,6 +115,9 @@ h2 {
     }
     .profile-photo {
         width: 50%;
+    }
+    .world-map {
+        width: 80%;
     }
 }
 
@@ -130,6 +137,9 @@ h2 {
     .profile-photo {
         width: 40%;
     }
+    .world-map {
+        width: 80%;
+    }
 }
 
 @media (min-width: 992px) {
@@ -137,13 +147,19 @@ h2 {
         font-size: 2vw;
     }
     h1 {
-        font-size: 6vw;
+        font-size: 5vw;
     }
     h2 {
-        font-size: 6vw;
+        font-size: 5vw;
     }
     .spotify-iframe-container {
         width: 30vw;
+    }
+    .profile-photo {
+        width: 25%;
+    }
+    .world-map {
+        width: 60%;
     }
 }
 
