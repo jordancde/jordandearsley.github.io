@@ -93,6 +93,7 @@ h2 {
     height: 60vh;
     margin: 0 auto;
     overflow: hidden;
+    mask-image: -webkit-radial-gradient(white, black);
 }
 
 .profile-photo {
