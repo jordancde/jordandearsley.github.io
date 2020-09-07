@@ -15,7 +15,7 @@ body {
 
 .child {
     scroll-snap-align: start;
-    height: 100%;
+    height: 100vh;
     scroll-snap-stop: always;
 }
 
