@@ -2,6 +2,7 @@ body {
     font-family: "Hind";
     color: #3F3F3F;
     overflow: hidden;
+    height: 100%;
 }
 
 .scrollable-container {
