@@ -5,17 +5,20 @@ body {
     height: 100vh;
     /* Use vh as a fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+    /* Use vw as a fallback for browsers that do not support Custom Properties */
+    width: calc(var(--vw, 1vw) * 100);
 }
 
 .scrollable-container {
     scroll-snap-type: y mandatory;
     overflow: auto;
-    height: 100vh;
+    height: 100%;
 }
 
 .child {
     scroll-snap-align: start;
-    height: 100vh;
+    height: 100%;
     scroll-snap-stop: always;
 }
 
